@@ -1,0 +1,31 @@
+.logo {
+   display: inline-block;
+   position: relative;
+   width: 100px;
+   height: 100px;
+   overflow: hidden;
+   border-radius: 50%;
+   border: 2px solid white;
+}
+
+.logo img {
+    width: auto;
+    height: 100%;
+    margin-left: -38px;
+}
+
+.header {
+    display: flex;
+    font-size: large;
+    font-weight: bolder;
+    color: white;
+    background-color: black;
+    margin: 0;
+    padding: 0 16px;
+    justify-content: space-between;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
