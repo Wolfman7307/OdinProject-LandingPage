@@ -1,5 +1,20 @@
 body {
-    background-color: black;
+    background-color: gray;
+}
+
+/* Header Properties */
+.header-top {
+    display: flex;
+    font-size: medium;
+    font-family:  georgia, verdana, sans-serif;
+    font-weight: bolder;
+    color: white;
+    background-color: gray;
+    margin: 0 200px;
+    padding: 0 16px;
+    gap: 16px;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .logo {
@@ -19,22 +34,65 @@ body {
     margin-left: -38px;
 }
 
-.header {
+.con-one {
     display: flex;
-    font-size: large;
-    font-family:  georgia, verdana, sans-serif;
-    font-weight: bolder;
-    color: white;
-    background-color: black;
-    margin: 0;
-    padding: 0 16px;
-    gap: 16px;
     align-items: center;
-    justify-content: space-between;
+    gap: 16px;
+}
+
+h2 {
+    text-align: left;
 }
 
 .buttons {
     display: flex;
     gap: 24px; 
     flex-wrap: wrap;
+    font-weight: 200;
+}
+
+/* Sub-Header Properties */
+.header {
+    display: flex;
+    margin: 0 200px; 
+    padding: 16px;
+    background-color: gray;
+}
+
+.main-text {
+    color: rgb(43, 46, 255); 
+    margin-bottom: 0; 
+    font-size: 60px;  
+}
+
+.sub-text {
+    color: rgb(29, 29, 207);
+    margin-top: 0;
+    font-size: 24px;
+}
+
+p {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.con-two {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    font-size: 20px;
+    max-width: max-content;
+    border-radius: 25px;
+    background-color: blue;
+    color: white;
+}
+
+.button {
+    display: flex;
+    padding: 24px 0;
+}
+img brake {
+    display: flex;
 }
