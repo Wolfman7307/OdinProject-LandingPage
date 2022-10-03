@@ -1,10 +1,25 @@
+/* Basic Reset Style Sheet */
+
+* {
+    box-sizing: border-box;
+}
+
+html, body, div, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
 body {
     background-color: #262626;
     color: #f5f5f5;
     min-width: 1450px;
 }
 
-/* Header Properties */
+/* Top Header Properties */
 .header-top {
     display: flex;
     font-size: medium;
@@ -12,7 +27,7 @@ body {
     font-weight: bolder;
     color: #f5f5f5;
     background-color: #3f3f3f;
-    padding: 0 300px 48px;
+    padding: 16px 300px 48px;
     align-items: center;
     justify-content: space-between;
 }
@@ -52,7 +67,7 @@ h2 {
     color: #dcdcdc;
 }
 
-/* Sub-Header Properties */
+/* Header Properties */
 .header {
     display: flex;
     padding: 0 300px 48px;
@@ -104,4 +119,37 @@ button {
     display: block;
     max-width: 100%;
     max-height: 100%;
+}
+
+/* Next Element */
+
+.info {
+    display: flex;
+    flex: 1;
+    background-color: #f5f5f5;
+}
+
+.box {
+    display: flex;
+    position: relative;
+    background-color: #f5f5f5;
+    flex-direction: row;
+}
+
+.box img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    border: 2px solid #262626;
+}
+
+h1 {
+    color: #3f3f3f;
+}
+
+.boxes p {
+    color: #262626;
+    background-color: #f5f5f5;
+    font-size: x-large;
+    
 }
