@@ -20,9 +20,9 @@ body {
 }
 
 /* Top Header Properties */
+
 .header-top {
     display: flex;
-    font-size: medium;
     font-family:  georgia, verdana, sans-serif;
     font-weight: bolder;
     color: #f5f5f5;
@@ -53,6 +53,7 @@ body {
     display: flex;
     align-items: center;
     gap: 16px;
+    font-size: x-large;
 }
 
 h2 {
@@ -65,9 +66,11 @@ h2 {
     flex-wrap: wrap;
     font-weight: 200;
     color: #dcdcdc;
+    font-size: large;
 }
 
 /* Header Properties */
+
 .header {
     display: flex;
     padding: 0 300px 48px;
@@ -78,13 +81,13 @@ h2 {
 .main-text {
     color: #f5f5f5; 
     margin-bottom: 0; 
-    font-size: 60px;  
+    font-size: 72px;  
 }
 
 .sub-text {
     color: #dcdcdc;
     margin-top: 0;
-    font-size: 24px;
+    font-size: 30px;
 }
 
 p {
@@ -101,8 +104,9 @@ button {
     font-size: 20px;
     max-width: max-content;
     border-radius: 25px;
-    background-color: #262626;
-    color: #f5f5f5;
+    background-color: #f5f5f5;
+    color: #262626;
+    border: 2px solid #dcdcdc;
 }
 
 .button {
@@ -125,7 +129,10 @@ button {
 
 .info {
     background-color: #f5f5f5;
-    padding-bottom: 48px;
+    padding-bottom: 60px;
+    padding-top: 48px;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
 .info-header {
@@ -195,4 +202,77 @@ button {
 
 h1 {
     color: #3f3f3f;
+}
+
+/* Quote Element */
+
+.quote-box {
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    padding: 215px 175px;
+}
+
+.quote {
+    color: #f5f5f5;
+    font-size: xx-large;
+    font-style: italic;
+    background-color: #262626;
+    text-align: center;
+    padding-bottom: 16px;
+}
+
+.quotee {
+    color: #dcdcdc;
+    font-size: large;
+    font-weight: bolder;
+    background-color: #262626;
+    text-align: end;
+    padding-right: 75px;
+}
+
+/* Call to Action Element */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 200px 100px;
+}
+
+.cta-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3f3f3f;
+    width: 1200px;
+    height: 150px;
+    padding-left: 80px;
+    padding-right: 80px;
+    border-radius: 15px;
+}
+
+.text {
+    display: flexbox;
+    text-align: left;
+}
+
+.top-text {
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.bottom-text {
+    font-size: medium;
+}
+
+.r-button {
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    max-width: max-content;
+    border-radius: 25px;
+    color: #262626;
+    border: 2px solid #dcdcdc;
 }
